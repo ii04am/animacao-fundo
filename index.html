@@ -1,0 +1,21 @@
+<!--Arquivo animação fundo.html-->
+<html>
+    <head>
+        <title>Animaçãao de fundo</title>
+        <scripit src="fundo.js"></scripit>    
+    </head>
+    <body>
+        <canvas id="canv"width="500"height="500">
+            este browser não suporta o objeto anvas do html5
+        </canvas>
+        <script>
+            canvas= document.getElementById("canv");
+            ctx=canvas.getContext("2d");
+            imgFundo=newImage();
+            imgFundo.src="img/estrelas.png";
+            posY=0;
+            imgfundo.onload=animmaFundo();
+
+        </script>
+    </body>
+</html>
